@@ -49,7 +49,10 @@ table {
 
 /*css reset*/
 
-
+.wrap{
+    width: 1440px;
+    margin: 0 auto;
+}
 .header{
     
    
