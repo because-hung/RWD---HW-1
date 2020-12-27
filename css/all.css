@@ -205,7 +205,7 @@ h1 a {
 
 }
 
-.uldiv{
+.topmenu{
     position: relative;
     width: 30%;
  
@@ -213,7 +213,7 @@ h1 a {
 
 
 
-.menubtn{
+.hamMenu{
   
 text-decoration: none;
 display: none;
@@ -223,6 +223,7 @@ padding: 15px;
 position: absolute;
 top: 0;
 right: 0;
+
 }
 
 
@@ -262,7 +263,7 @@ a:hover {
 
    
 
-    .menubtn{
+    .hamMenu{
         display: block;
      
      
@@ -312,7 +313,7 @@ a:hover {
 
 }
 
-.pdiv {
+.topTitle {
 
     text-align: center;
     display: flex;
@@ -325,7 +326,7 @@ a:hover {
 
 }
 
-.pdiv h2 {
+.topTitle h2 {
 
     color: white;
     font-size: 36px;
@@ -333,7 +334,7 @@ a:hover {
     color: hsl(100%, 100%, 100%);
 }
 
-.pdiv p {
+.topTitle p {
 
     color: yellow;
     font-size: 24px;
@@ -345,16 +346,16 @@ a:hover {
 @media (max-width:768px) {
 
 
-.pdiv{
+.topTitle{
     margin-top: 70px;
 }
-    .pdiv h2 {
+    .topTitle h2 {
         display: none;
        
     }
 
 
-    .pdiv p {
+    .topTitle p {
         font-weight: 800;
         font-size: 26px;
         padding: 40px;
@@ -362,7 +363,7 @@ a:hover {
         color:lightgreen;
     }
 
-    .pdiv .ham {
+    .topTitle .ham {
         font-size: 38px;
         color: yellow;
       
@@ -373,7 +374,7 @@ a:hover {
 @media (max-width:414px) {
 
 
-.pdiv{
+.topTitle{
   
 width: 30%;
 margin-top: 0;
@@ -383,7 +384,7 @@ padding: 5px;
 }
 
 
-    .pdiv p{
+    .topTitle p{
         font-weight: 800;
      
   
@@ -391,7 +392,7 @@ padding: 5px;
     }
 
 
-    .pdiv .ham {
+    .topTitle .ham {
         display: none;
     }
 
@@ -410,25 +411,25 @@ padding: 5px;
     margin: 0 auto;
 }
 
-.h2img {
+.middleTitle {
     text-align: center;
 
     padding: 50px;
 }
 
-.h2img h4 {
+.middleTitle h4 {
     font-weight: 700;
     margin-top: 5px;
 
 }
 
-.msn {
+.sign {
     border: 2px #d0cac9 solid;
     border-top: 2px orangered solid;
 
 }
 
-.msn h4 {
+.sign h4 {
     text-align: center;
     font-size: 28px;
     font-weight: 700;
@@ -522,50 +523,50 @@ padding: 5px;
     justify-content: space-between;
 }
 
-.leftdiv {
+.aboutUs {
     display: flex;
 }
 
-.leftdiv p {
+.aboutUs p {
     width: 300px;
 
 }
 
-.leftdiv h3 {
+.aboutUs h3 {
     margin-top: 20px;
     margin-left: 30px;
     font-weight: 600;
     font-size: 24px;
 }
 
-.leftdiv p {
+.aboutUs p {
     padding: 20px;
     margin: 10px;
 }
 
-.leftdiv ul {
+.aboutUs ul {
     margin-top: 30px;
     margin-left: 50px;
 }
 
-.leftdiv li {
+.aboutUs li {
     padding: 5px;
     list-style-type: disc;
 }
 
 
-.leftdiv p {
+.aboutUs p {
     font-size: 20px;
     line-height: 1.2;
 }
 
 
-.rdiv li {
+.tel li {
 
     font-size: 20px;
 }
 
-.rightdiv {
+.footerLogo {
     margin-right: 30px;
 }
 
@@ -582,17 +583,17 @@ padding: 5px;
 }
 
 @media (max-width:768px) {
-    .ldiv {
+    .about {
         display: none;
     }
 
-    .rdiv h3 {
+    .tel h3 {
         font-size: 28px;
         font-weight: 700;
         font-family: cursive;
     }
 
-    .rdiv li {
+    .tel li {
         font-size: 22px;
         font-family: cursive;
 
@@ -608,7 +609,7 @@ padding: 5px;
        align-items: center;
    }
     
-   .rightdiv{
+   .footerLogo{
        margin-bottom: 20px;
        }
 
