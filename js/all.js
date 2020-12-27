@@ -1,6 +1,6 @@
 
 $(document).ready(function () {
-    $('.menubtn').click(function (e) { 
+    $('.hamMenu').click(function (e) { 
         e.preventDefault();
         $('.topmenu').addClass('showmenu');
         
